@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">SimpleExampleRealm</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_insert">Insert</string>
+    <string name="title_update">Update</string>
+    <string name="title_read">List</string>
+
 </resources>
