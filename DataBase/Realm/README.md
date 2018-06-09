@@ -50,6 +50,13 @@ realm {
 
 ```
 
+* **Step 4** - Case you need to use data adapter, you can add line bellow in your depedencies:
+
+```
+implementation 'io.realm:android-adapters:2.1.1'
+
+```
+
 building...
 
 ## Authors
