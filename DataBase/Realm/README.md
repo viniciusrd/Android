@@ -2,6 +2,11 @@
 
 This is a simple example how to use realm in android.
 
+### What is Realm?
+
+Realm is another type of database in Android. But, what is very important, Realm doesn’t use SQLite. If you use ORMLite or ActiveAndroid or any other similar library, your data is stored in SQLite database, because these libraries give us only an overlay on SQLite. With Realm there is no SQLite at all. Thanks to that Realm is very fast and you are even allowed to write the data in UI thread (mostly).
+
+
 ### Prerequisites
 
 * Android Studio version 1.5.1 or higher
