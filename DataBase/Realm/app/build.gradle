@@ -38,5 +38,5 @@ dependencies {
 
     //Need for to use adapter in realm
     implementation 'io.realm:android-adapters:2.1.1'
-    implementation 'io.realm:realm-android:0.87.4'
+
 }
