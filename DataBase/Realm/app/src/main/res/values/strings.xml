@@ -4,4 +4,13 @@
     <string name="title_update">Update</string>
     <string name="title_read">List</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--TODO: buttons-->
+    <string name="btn_insert">Insert</string>
+
+    <!--TODO: InsertFragment-->
+    <string name="hint">Name</string>
+
 </resources>
