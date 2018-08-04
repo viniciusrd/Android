@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#860801</color>
+    <color name="colorPrimaryDark">#8e2923</color>
+    <color name="colorAccent">#be0c18</color>
+    <color name="background_app_color">#393939</color>
+</resources>

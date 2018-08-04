@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Aprendendo Guidelines</string>
+    <string name="defaultSerie">Game Of Thrones</string>
+    <string name="defaultSession">S01:E01</string>
+    <string name="defaultCurrentTimeSerie">00:00</string>
+    <string name="defaultTotalTimeSerie">42:58</string>
+
+</resources>
