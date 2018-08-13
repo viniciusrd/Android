@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@transition/slide_left</item>
+        <item name="android:windowExitAnimation">@transition/slide_right</item>
+    </style>
+    <style name="DialogAnimation_2">
+        <item name="android:windowEnterAnimation">@transition/slide_up</item>
+        <item name="android:windowExitAnimation">@transition/slide_bottom</item>
+    </style>
+
 </resources>
