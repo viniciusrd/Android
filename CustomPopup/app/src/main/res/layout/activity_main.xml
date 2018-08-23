@@ -18,4 +18,15 @@
         app:layout_constraintTop_toTopOf="parent"
         android:background="@drawable/buttonstyle"
         android:textColor="#fff"/>
+    <Button
+        android:id="@+id/showPopup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show Dialog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/showPopup"
+        android:background="@drawable/buttonstyle"
+        android:textColor="#fff"/>
 </android.support.constraint.ConstraintLayout>

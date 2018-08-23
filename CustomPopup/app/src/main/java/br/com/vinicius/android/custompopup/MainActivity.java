@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     Dialog mDialog;
     Button mBtnShowPopup;
+    Button mBtnShowPopup2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +22,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         mDialog = new Dialog(this);
         mBtnShowPopup = findViewById(R.id.showPopup);
+        mBtnShowPopup2 = findViewById(R.id.showPopup2);
         mBtnShowPopup.setOnClickListener(this);
+        mBtnShowPopup2.setOnClickListener(this);
 
     }
 
@@ -40,6 +43,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
+    private void showPopup2(){
+
+        mDialog.setContentView(R.layout.customprogressdialog);
+        mDialog.show();
+
+    }
+
+
     @Override
     public void onClick(View v) {
 
@@ -50,5 +61,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             showPopup();
         }
 
+        if (v.getId() == R.id.showPopup2){
+            showPopup2();
+        }
     }
 }
